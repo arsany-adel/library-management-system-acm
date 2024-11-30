@@ -122,8 +122,8 @@ function main(): void {
 
         switch(choice) {
             case 1: searchBook(library); break;
-            case 2: searchBook(library); break;
-            case 3: borrowBook(library); break;
+            case 2: borrowBook(library); break;
+            case 3: returnBook(library); break;
             case 4: removeBook(library); break;
             case 5: displayDetails(library); break;
         }
